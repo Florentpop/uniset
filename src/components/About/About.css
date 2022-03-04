@@ -1,0 +1,22 @@
+.about-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left img {
+  width: 95%;
+}
+
+.right {
+  width: 60%;
+}
+
+@media screen and (max-width: 600px) {
+  .about-main {
+    flex-direction: column;
+  }
+  .left img {
+    width: 100%;
+  }
+}
