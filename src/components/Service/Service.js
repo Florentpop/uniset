@@ -1,6 +1,5 @@
 import React from "react";
 import "./Service.css";
-import stevedore from "../../assets/stevedore.jpg";
 
 const Service = ({ image, heading, text }) => {
   return (
