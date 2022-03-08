@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./About.css";
 import { BsFillBookmarkStarFill } from "react-icons/bs";
 import stevedore from "../../assets/stevedore.jpg";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const About = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+    });
+  }, []);
   return (
     <section id="about">
       <div className="container about">
-        <div className="u-title">
+        <div className="u-title" data-aos="fade-down">
           <BsFillBookmarkStarFill color="orangered" size={30} />
           <h2>About us</h2>
         </div>
