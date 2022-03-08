@@ -1,5 +1,13 @@
 import "./App.css";
-import { Navbar, Header, About, Services, Footer } from "./components";
+import {
+  Navbar,
+  Header,
+  About,
+  Services,
+  Footer,
+  Value,
+  Banner,
+} from "./components";
 
 function App() {
   return (
@@ -10,7 +18,9 @@ function App() {
       <header className="header-bg">
         <Header />
       </header>
+      <Value />
       <About />
+      <Banner />
       <Services />
       <Footer />
     </main>

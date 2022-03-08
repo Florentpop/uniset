@@ -1,0 +1,17 @@
+section#banner {
+  background: linear-gradient(
+    90deg,
+    rgba(45, 165, 255, 1) 45%,
+    rgba(1, 223, 245, 1) 100%
+  );
+  text-align: center;
+  color: var(--color-white);
+}
+
+.banner h2 {
+  font-size: 3rem;
+  font-weight: 200;
+  line-height: 1.4;
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+}

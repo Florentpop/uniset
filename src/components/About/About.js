@@ -18,13 +18,12 @@ const About = () => {
 
           <div className="right">
             <h4 className="u-text-small u-text-dark">
-              <b> Uniset Stevedoring Company</b> is an indigenous Ghanaian
-              company. It was incorporated in the year 1999, under the Company
-              Code of Ghana (Act 179, 1963). The company's objects allow it to
-              provide services in stevedoring and logistics to companies in the
-              fishing Industry of Ghana.
+              <b> Uniset Stevedoring Company</b> was formed in 1999 and is a
+              Ghanaian registered and owned company, with an extensive portfolio
+              of activities, with particular emphasis in stevedoring and
+              logistics service related fields.
               <p>
-                we are licence by
+                We are licence by
                 <a href="ghanaports.gov.gh">
                   Ghana Ports and Harbours Authority(GPHA)
                 </a>

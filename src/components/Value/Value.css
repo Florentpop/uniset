@@ -1,0 +1,30 @@
+.value {
+  padding: 40px 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon h3 {
+  font-size: 3rem;
+  font-weight: 200;
+  line-height: 1.4;
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .icons {
+    flex-direction: column;
+  }
+}
