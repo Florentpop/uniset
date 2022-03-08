@@ -1,0 +1,20 @@
+section#bannerDown {
+  background: url(../../assets/JCB_Teletruck.png);
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 4rem;
+  color: var(--color-white);
+}
+
+.bannerDown h2 {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.4;
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+  padding-bottom: 1rem;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  opacity: 1;
+}

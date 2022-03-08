@@ -5,3 +5,4 @@ export { default as Services } from "./Service/Services";
 export { default as Footer } from "./Footer/Footer";
 export { default as Value } from "./Value/Value";
 export { default as Banner } from "./Banner/Banner";
+export { default as BannerDown } from "./BannerDown/BannerDown";

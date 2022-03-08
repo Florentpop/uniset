@@ -30,7 +30,7 @@ const About = () => {
                 and also a proud member of
                 <a href="ghanatuna.com"> Ghana Tuna Association(GTA) </a>. The
                 stevedore licence grants us
-                <a href=""> Uniset Stevedoring Company</a> the right and
+                <a href="#home"> Uniset Stevedoring Company</a> the right and
                 privilege to undertake stevedoring operations in the Port of
                 Tema (Fishing Harbours and the Main Port).
               </p>

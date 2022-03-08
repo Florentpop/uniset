@@ -7,6 +7,7 @@ import {
   Footer,
   Value,
   Banner,
+  BannerDown,
 } from "./components";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <About />
       <Banner />
       <Services />
+      <BannerDown />
       <Footer />
     </main>
   );
